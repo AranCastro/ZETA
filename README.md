@@ -33,3 +33,5 @@ streamlit run zeta_app.py
 ```powershell
 .venv\Scripts\python -m pytest -q
 ```
+DOI : 10.5281/zenodo.18649340
+
