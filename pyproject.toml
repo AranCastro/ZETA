@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zeta"
+version = "0.1.0"
+description = "ZETA - Smart Mineral Formula Calculator"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "ZETA Contributors" }
+]
+dependencies = [
+  "streamlit>=1.41",
+  "pandas>=2.2",
+  "numpy>=2.1",
+  "plotly>=5.24",
+  "openpyxl>=3.1"
+]
+
+[tool.setuptools.packages.find]
+include = ["zeta*", "mincalc*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

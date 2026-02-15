@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ZETA Orbital Logo</title>
+  <desc id="desc">Minimal burgundy ZETA wordmark inside a circular atomic orbital motif.</desc>
+  <defs>
+    <style>
+      .brand { stroke: #722f37; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dot { fill: #722f37; }
+      .label { fill: #722f37; font-family: "Avenir Next", "Segoe UI", sans-serif; font-weight: 700; letter-spacing: 10px; }
+    </style>
+  </defs>
+
+  <circle class="brand" stroke-width="14" cx="256" cy="220" r="156"/>
+  <ellipse class="brand" stroke-width="8" cx="256" cy="220" rx="126" ry="52" transform="rotate(24 256 220)"/>
+  <ellipse class="brand" stroke-width="8" cx="256" cy="220" rx="126" ry="52" transform="rotate(-24 256 220)"/>
+  <ellipse class="brand" stroke-width="8" cx="256" cy="220" rx="126" ry="52" transform="rotate(90 256 220)"/>
+
+  <circle class="dot" cx="378" cy="282" r="10"/>
+  <circle class="dot" cx="138" cy="254" r="10"/>
+  <circle class="dot" cx="256" cy="94" r="10"/>
+
+  <text class="label" x="256" y="236" text-anchor="middle" font-size="64">ZETA</text>
+</svg>
